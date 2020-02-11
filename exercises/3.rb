@@ -15,3 +15,12 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+
+my_slist = ["milk", "eggs", "bacon"]
+friend_slist = ["beer", "cookies", "apples", "bacon"]
+
+final_slist = my_slist + friend_slist
+final_slist = final_slist.uniq
+final_slist = final_slist.sort
+
+puts final_slist
